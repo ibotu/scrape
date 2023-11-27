@@ -1,0 +1,9 @@
+{
+    "name": "WordPress + Scraping App + Caddy",
+    "dockerFile": "Dockerfile",
+    "appPort": [80, 2015],
+    "extensions": ["felixfbecker.php-pack", "ms-python.python"],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    }
+}

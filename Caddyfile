@@ -1,0 +1,10 @@
+:80 {
+    root * /var/www/html
+    php_fastcgi wordpress:9000
+    file_server
+}
+
+:5000 {
+    reverse_proxy scraper:5000
+}
+
